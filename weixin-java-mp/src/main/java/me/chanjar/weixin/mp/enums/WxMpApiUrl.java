@@ -706,6 +706,10 @@ public interface WxMpApiUrl {
      */
     MEDIA_GET_URL(API_DEFAULT_HOST_URL, "/cgi-bin/media/get"),
     /**
+     * get_jssdk.
+     */
+    MEDIA_GET_JSSDK_URL(API_DEFAULT_HOST_URL, "/cgi-bin/media/get/jssdk"),
+    /**
      * upload.
      */
     MEDIA_UPLOAD_URL(API_DEFAULT_HOST_URL, "/cgi-bin/media/upload?type=%s"),
